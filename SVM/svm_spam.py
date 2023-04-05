@@ -25,7 +25,7 @@ def read_file(file_path: str) -> str:
 # %% ==================== Part 1: Email Preprocessing ====================
 #  To use an SVM to classify emails into Spam v.s. Non-Spam, you first need
 #  to convert each email into a vector of features. In this part, you will
-#  implement the preprocessing steps for each email. You should
+#  implement the preprocessing steps for each email. You shoulds
 #  complete the code in process_email.py to produce a word indices vector
 #  for a given email.
 
