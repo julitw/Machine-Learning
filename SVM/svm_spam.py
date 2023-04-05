@@ -157,6 +157,7 @@ input('\nProgram paused. Press enter to continue.\n')
 # different emails types). Try your own emails as well!
 path = 'data/spamSample1.txt'
 path2 = 'data/spamSample2.txt'
+path3 = 'data/mySpam.txt'
 
 # Read and predict
 def readAndPredict(filename):
@@ -171,3 +172,5 @@ def readAndPredict(filename):
 readAndPredict(path)
 input('\nNext trial. Press enter to continue.\n')
 readAndPredict(path2)
+input('\nNext trial. Press enter to continue.\n')
+readAndPredict(path3)
